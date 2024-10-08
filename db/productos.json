@@ -1,0 +1,90 @@
+{"_id": {"$oid": "66fdfced9bf069736f0fe4ea"},"nombre": "Barquillos c/r",
+    "foto": "/img/Barquillos-con-rocklets.webp",
+    "descripcion": "barquillos",
+    "precio": "$220",
+    "stock": "4444",
+    "categoria": "postres",
+    "envio": false,
+    "cantidad": 1,
+    "detalles": "Postre con muchas variedades "
+  } 
+  {
+    "_id": {
+      "$oid": "66fdfd129bf069736f0fe4eb"
+    },
+    "nombre": "Choco luna",
+    "foto": "/img/Choco-luna.webp",
+    "descripcion": "choco-luna",
+    "precio": "$200",
+    "stock": "4444",
+    "categoria": "postres",
+    "envio": true,
+    "detalles": "Chocolate con forma de luna"
+  }
+  {
+    "_id": {
+      "$oid": "66fdfd349bf069736f0fe4ec"
+    },
+    "nombre": "Coco",
+    "foto": "/img/Coco.webp",
+    "descripcion": "Coco",
+    "precio": "$200",
+    "stock": "4445",
+    "categoria": "postres",
+    "envio": false,
+    "cantidad": 1,
+    "detalles": "El ideal para la familia"
+  }
+  {
+    "_id": {
+      "$oid": "66fdfd449bf069736f0fe4ed"
+    },
+    "nombre": "Isla Flotante",
+    "foto": "/img/Isla-flotante.webp",
+    "descripcion": "Isla-flotante",
+    "precio": "$200",
+    "stock": "4444",
+    "categoria": "postres",
+    "envio": true,
+    "detalles": "Permitite un gustito"
+  }
+  {
+    "_id": {
+      "$oid": "66fdfd649bf069736f0fe4ee"
+    },
+    "nombre": "Lemon Pie",
+    "foto": "/img/Lemon-pie.webp",
+    "descripcion": "Lemon-pie",
+    "precio": "$230",
+    "stock": "4444",
+    "categoria": "postres",
+    "envio": false,
+    "cantidad": 1,
+    "detalles": "Acaso dijiste Lemon Pie?"
+  }
+  {
+    "_id": {
+      "$oid": "66fdfd7c9bf069736f0fe4ef"
+    },
+    "nombre": "Rogel",
+    "foto": "/img/Rogel.webp",
+    "descripcion": "Rogel",
+    "precio": "$200",
+    "stock": "4444",
+    "categoria": "postres",
+    "envio": true,
+    "detalles": "Nuestro Rogel es inigualable!"
+  }
+  {
+    "_id": {
+      "$oid": "66fdfd919bf069736f0fe4f0"
+    },
+    "nombre": "Selva negra",
+    "foto": "/img/Selva-negra.webp",
+    "descripcion": "Selva-negra",
+    "precio": "$200",
+    "stock": "4444",
+    "categoria": "postres",
+    "envio": false,
+    "detalles": "Lo probas y lo volves a elegir!"
+  }
