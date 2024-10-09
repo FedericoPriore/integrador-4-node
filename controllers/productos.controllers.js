@@ -26,12 +26,11 @@ const getOne = async(req, res) => {
 
 const create = async (req, res) => { 
     const producto = req.body
-    //console.log(producto)
 
     try {
         const productoCreado = await modelos.crearProducto(producto)
-        res.status(201).json(handleMongoId(productoCreado)) // convierte el _id en id
-    } catch (error) {
+        res.status(201).json(handleMongoId(productoCreado))
+     } catch (error) {
         console.log('[create]', error)
     }
 

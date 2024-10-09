@@ -1,13 +1,9 @@
 import mongoose from "mongoose";
 
-// ! Creamos esquema (La descripción de como va a ser nuestro documento)
 
 const ProductosEsquema = mongoose.Schema(
     {
-        nombre: {
-            type: String,
-            require: true
-        },
+        nombre: String,
         precio: Number,
         stock: Number,
         categoria: String,
@@ -16,7 +12,7 @@ const ProductosEsquema = mongoose.Schema(
         envio: Boolean
     },
     {
-        timestamps: true, // createAt | updatedAt 
+        timestamps: true, 
         versionKey: false
     }
     
